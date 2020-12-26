@@ -1,0 +1,7 @@
+#Ignore directories
+env/
+__pycache__/
+#Ignore All VS Code stuff
+.vscode
+#Ignore the file the code is written into
+onlinecode.py
