@@ -7,6 +7,7 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -31,4 +32,4 @@ jobs:
       with:
         app-name: 'pyonline'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_e3a6f74d91a74edaa9d70d80dbeeb929 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_7795e8cf2050439180c69a07ee223661 }}
