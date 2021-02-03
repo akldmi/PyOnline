@@ -12,7 +12,7 @@ A python interpreter built on flask used to run code your code over a broswer th
 > sudo apt-get install python3-venv
 
 3. Create a virtual environment 'env'
-> python3 - venv env
+> python3 -m venv env
 
 4. Activate the virtual environment
 > source env/bin/activate
